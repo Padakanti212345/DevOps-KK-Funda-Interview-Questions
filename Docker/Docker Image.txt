@@ -401,5 +401,7 @@
 
 ---
 
+31. Explain Difference b/w  EXPOSE  and port  in Docker 
+
 
 
