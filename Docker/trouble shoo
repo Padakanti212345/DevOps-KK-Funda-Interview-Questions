@@ -1,0 +1,112 @@
+Encourage your  partons every DevOps Engineer must know
+
+When a deployment fails:
+
+1) Don’t call a developer.
+2) Don’t fix the configuration.
+3) Don’t dive into the logs.
+4) Don’t panic.
+
+The first thing you do is Roll back.
+
+Why?
+
+Because business continuity comes first. Everything else comes second.
+
+The business is on hold when the system goes down,
+and that's not an option.
+
+Every second of downtime matters.
+For some businesses, 10 minutes of downtime can cost thousands—or even a million.
+
+E-commerce sites lose sales.
+Banks face trust issues.
+Streaming platforms lose viewers.
+
+So roll back immediately, stabilize the system and then investigate.
+
+Remember: A smooth recovery is more valuable than a rushed fix.
+
+Here are similar key points that every DevOps Engineer should know to handle critical situations effectively:
+
+
+---
+
+When a Server is Under High Load:
+
+1. Don’t restart the server immediately.
+
+
+2. Don’t kill processes randomly.
+
+
+3. Don’t increase resources (CPU/RAM) as a quick fix.
+
+
+4. Don’t ignore the root cause.
+
+
+
+What to do first:
+Scale horizontally if possible (add more servers) or redirect traffic temporarily to reduce the load. Then, analyze the system for bottlenecks like inefficient queries, memory leaks, or high disk I/O.
+
+
+---
+
+When Monitoring Alerts Trigger Repeatedly:
+
+1. Don’t silence the alerts without investigation.
+
+
+2. Don’t disable the monitoring tool.
+
+
+3. Don’t blame the monitoring system.
+
+
+4. Don’t wait for it to stop on its own.
+
+
+
+What to do first:
+Identify if the alert threshold is too sensitive or if there’s an actual issue. Prioritize immediate fixes for production-impacting problems, but review your alerting logic afterward to prevent future noise.
+
+
+---
+
+When CI/CD Pipelines Fail:
+
+1. Don’t push code manually as a workaround.
+
+
+2. Don’t ignore the pipeline error messages.
+
+
+3. Don’t disable test suites for faster builds.
+
+
+4. Don’t bypass the pipeline checks.
+
+
+
+What to do first:
+Analyze why the pipeline failed—was it a flaky test, incorrect configuration, or dependency issue? Fix the pipeline to ensure future deployments are seamless and reliable.
+
+
+---
+
+When a Database Connection Fails:
+
+1. Don’t restart the database blindly.
+
+
+2. Don’t bypass authentication mechanisms.
+
+
+3. Don’t increase connection limits immediately.
+
+
+4. Don’t alter database configurations reckles
+
+What to do first:
+Check if the issue is due to network problems, high traffic, or connection leaks from the application side. Apply
